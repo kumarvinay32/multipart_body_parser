@@ -1,0 +1,35 @@
+{
+  "name": "@krvinay/multipart-body-parser",
+  "version": "1.0.0",
+  "description": "Parse express multipart body to array consisting file buffer and field data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "form",
+    "post",
+    "multipart",
+    "form-data",
+    "formdata",
+    "express",
+    "middleware",
+    "body parser",
+    "multipart parser",
+    "file parser",
+    "file buffer"
+  ],
+  "author": "Vinay Kumar",
+  "license": "ISC",
+  "homepage": "https://github.com/kumarvinay32/multipart_body_parser",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumarvinay32/multipart_body_parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kumarvinay32/multipart_body_parser/issues"
+  },
+  "dependencies": {
+    "multer": "~1.4.2"
+  }
+}
