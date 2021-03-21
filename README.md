@@ -8,10 +8,20 @@ Express Multipart body data Parser: parse multipart form data to valid array con
   npm install @krvinay/multipart-body-parser
 ```
 
-## Usage
+## Usage (Global)
 
 ```javascript
-  multipart_parser = require("@krvinay/multipart-body-parser");
-  app = require("express")();
-  app.use(multipart_parser);
+multipart_parser = require("@krvinay/multipart-body-parser");
+app = require("express")();
+app.use(multipart_parser);
+```
+
+## Usage (Middleware)
+
+```javascript
+multipart_parser = require("@krvinay/multipart-body-parser");
+app = require("express")();
+app.post("/", multipart_parser, (req, res, next) => {
+  console.log(req.body);
+});
 ```
