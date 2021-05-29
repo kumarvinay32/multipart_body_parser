@@ -38,15 +38,8 @@ function multipart_body_parser(req, res, next) {
                     size: f.size,
                     buffer: f.buffer
                 });
-                console.log(normalized_file_name(f.originalname), f.originalname)
             }
             delete req.files;
-            for (const k in req.body) {
-                let f = req.body[k];
-                if (typeof f == "object" && f.length == 1) {
-                    req.body[k] = req.body[k][0];
-                }
-            }
             next();
         }
     });
