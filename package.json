@@ -1,6 +1,6 @@
 {
   "name": "@krvinay/multipart-body-parser",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Parse express multipart body to array consisting file buffer and field data",
   "main": "index.js",
   "scripts": {
