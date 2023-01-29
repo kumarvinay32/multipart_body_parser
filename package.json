@@ -30,6 +30,6 @@
     "url": "https://github.com/kumarvinay32/multipart_body_parser/issues"
   },
   "dependencies": {
-    "multer": "~1.4.2"
+    "multer": "^1.4.5-lts.1"
   }
 }
